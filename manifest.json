@@ -15,10 +15,21 @@
     "compatibility_skill": ".agents/skills/process-authoring/SKILL.md",
     "interview_skill": ".agents/skills/grill-me/SKILL.md",
     "authoring_source_snapshot": "sources/authoring-source-snapshot.json",
-    "default_outputs": ["procedure_draft", "process_v8_json", "workload_report", "pending_items"],
-    "authoring_goals": ["actual_process_mapping", "new_process_design"],
+    "default_outputs": [
+      "procedure_draft",
+      "process_v8_json",
+      "workload_report",
+      "pending_items"
+    ],
+    "authoring_goals": [
+      "actual_process_mapping",
+      "new_process_design"
+    ],
     "primary_schema_version": "process-governance-v8",
-    "supported_schema_versions": ["process-governance-v8", "process-governance-v7"],
+    "supported_schema_versions": [
+      "process-governance-v8",
+      "process-governance-v7"
+    ],
     "technical_snapshot": "technical/snapshot.json",
     "technical_snapshot_version": "2026-10-08.1",
     "offline_validator": "scripts/validate-process.cjs",
@@ -26,5 +37,11 @@
     "verification_record": "verification/full-authoring-check-2026-10-09.md",
     "business_rules_approved": false,
     "live_3000_acceptance_verified": false
+  },
+  "anonymization": {
+    "policy": "ANONYMIZATION.md",
+    "private_policy_tracked": false,
+    "scope": "repository_content",
+    "history_rewritten": false
   }
 }
