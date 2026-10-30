@@ -42,6 +42,8 @@
     "policy": "ANONYMIZATION.md",
     "private_policy_tracked": false,
     "scope": "repository_content",
-    "history_rewritten": false
+    "history_rewritten": true,
+    "mode": "literal",
+    "revision": "2026-10-30.2"
   }
 }
